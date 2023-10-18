@@ -1,0 +1,27 @@
+Mark contacto a Elon Musk para robar una tienda. Acuerdan como punto de encuentro un Starbucks cercano para realizar la compra de un cloinador de tarjetas (promark) y un equipo para inhibir camaras de seguridad (hackrf).
+
+Tambien habla con Jeffry Bezos para perdirle ayuda.
+
+Verificando las contraseñas guardadas en el navegador, en este caso Firefox, encontramos la flag 1.
+
+FLAG 1: ctf1{31aca2d96e70e7e568ce554a97665b11}
+
+En las contraseñas guardadas tambien encotramos la contraseña de su correo, por lo que probamnos a entrar.
+
+Revisando los mensajes encontramos la flag numero 2.
+
+FLAG 2: ctf2{67041c649c679227729d7b2870cab272}
+
+Vemos que en los correos hablan de clonar una tarjeta de un cliente, el cual tienen una foto.
+
+Encontramos en los documentos del PC varias fotos de clientes para clonar su tarjeta, por lo que revisamos los metadatodos de estas imagenes y encontramos la flag 3.
+
+FLAG 3: ctf3{56e5652ad1725c39c16702aad5b0fe3a}
+
+En estos archivos tambien encontramos unas credenciales. Si nos metemos a los favoritos del navegador vemos que tiene un login, probamos las credenciales y accedemos a un chat, donde encontramos la flag 4.
+
+FLAG 4: ctf4{94f53bf7fc6d0cd7a04375a9da74b558}
+
+En el escritorio tambien encontramos una carpeta llamda ConsoleApp5, investigando por estos archivos, encontramos en "program.cs" la flag 5 comentada.
+
+FLAG 5: ctf5{aee11bc8093ad9adbba0e47a202936cf}
